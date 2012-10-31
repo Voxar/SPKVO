@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9973567A16419F5700F0A837 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9973567916419F5700F0A837 /* Foundation.framework */; };
+		9973567F16419F5700F0A837 /* SPKVO.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9973567E16419F5700F0A837 /* SPKVO.h */; };
+		9973568116419F5700F0A837 /* SPKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 9973568016419F5700F0A837 /* SPKVO.m */; };
+		9973568916419F5700F0A837 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9973568816419F5700F0A837 /* SenTestingKit.framework */; };
+		9973568B16419F5700F0A837 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9973568A16419F5700F0A837 /* UIKit.framework */; };
+		9973568C16419F5700F0A837 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9973567916419F5700F0A837 /* Foundation.framework */; };
+		9973568F16419F5800F0A837 /* libSPKVO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9973567616419F5700F0A837 /* libSPKVO.a */; };
+		9973569516419F5800F0A837 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9973569316419F5800F0A837 /* InfoPlist.strings */; };
+		9973569816419F5800F0A837 /* SPKVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9973569716419F5800F0A837 /* SPKVOTests.m */; };
+		997356A31641AB4400F0A837 /* SPKVORetainCycleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 997356A21641AB4400F0A837 /* SPKVORetainCycleTests.m */; };
+		997356A61641AB8800F0A837 /* Dummies.m in Sources */ = {isa = PBXBuildFile; fileRef = 997356A51641AB8800F0A837 /* Dummies.m */; };
+		997356A91641B68F00F0A837 /* OnceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 997356A81641B68F00F0A837 /* OnceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9973568D16419F5800F0A837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9973566D16419F5700F0A837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9973567516419F5700F0A837;
+			remoteInfo = SPKVO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9973567416419F5700F0A837 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				9973567F16419F5700F0A837 /* SPKVO.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9973567616419F5700F0A837 /* libSPKVO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSPKVO.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9973567916419F5700F0A837 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9973567D16419F5700F0A837 /* SPKVO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPKVO-Prefix.pch"; sourceTree = "<group>"; };
+		9973567E16419F5700F0A837 /* SPKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPKVO.h; sourceTree = "<group>"; };
+		9973568016419F5700F0A837 /* SPKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPKVO.m; sourceTree = "<group>"; };
+		9973568716419F5700F0A837 /* SPKVOTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPKVOTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9973568816419F5700F0A837 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9973568A16419F5700F0A837 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9973569216419F5800F0A837 /* SPKVOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SPKVOTests-Info.plist"; sourceTree = "<group>"; };
+		9973569416419F5800F0A837 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9973569616419F5800F0A837 /* SPKVOTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPKVOTests.h; sourceTree = "<group>"; };
+		9973569716419F5800F0A837 /* SPKVOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPKVOTests.m; sourceTree = "<group>"; };
+		997356A11641AB4400F0A837 /* SPKVORetainCycleTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPKVORetainCycleTests.h; sourceTree = "<group>"; };
+		997356A21641AB4400F0A837 /* SPKVORetainCycleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPKVORetainCycleTests.m; sourceTree = "<group>"; };
+		997356A41641AB8800F0A837 /* Dummies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dummies.h; sourceTree = "<group>"; };
+		997356A51641AB8800F0A837 /* Dummies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dummies.m; sourceTree = "<group>"; };
+		997356A71641B68F00F0A837 /* OnceTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnceTests.h; sourceTree = "<group>"; };
+		997356A81641B68F00F0A837 /* OnceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9973567316419F5700F0A837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9973567A16419F5700F0A837 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9973568316419F5700F0A837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9973568916419F5700F0A837 /* SenTestingKit.framework in Frameworks */,
+				9973568B16419F5700F0A837 /* UIKit.framework in Frameworks */,
+				9973568C16419F5700F0A837 /* Foundation.framework in Frameworks */,
+				9973568F16419F5800F0A837 /* libSPKVO.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9973566B16419F5700F0A837 = {
+			isa = PBXGroup;
+			children = (
+				9973567B16419F5700F0A837 /* SPKVO */,
+				9973569016419F5800F0A837 /* SPKVOTests */,
+				9973567816419F5700F0A837 /* Frameworks */,
+				9973567716419F5700F0A837 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9973567716419F5700F0A837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9973567616419F5700F0A837 /* libSPKVO.a */,
+				9973568716419F5700F0A837 /* SPKVOTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9973567816419F5700F0A837 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9973567916419F5700F0A837 /* Foundation.framework */,
+				9973568816419F5700F0A837 /* SenTestingKit.framework */,
+				9973568A16419F5700F0A837 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9973567B16419F5700F0A837 /* SPKVO */ = {
+			isa = PBXGroup;
+			children = (
+				9973567E16419F5700F0A837 /* SPKVO.h */,
+				9973568016419F5700F0A837 /* SPKVO.m */,
+				9973567C16419F5700F0A837 /* Supporting Files */,
+			);
+			path = SPKVO;
+			sourceTree = "<group>";
+		};
+		9973567C16419F5700F0A837 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9973567D16419F5700F0A837 /* SPKVO-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9973569016419F5800F0A837 /* SPKVOTests */ = {
+			isa = PBXGroup;
+			children = (
+				997356A41641AB8800F0A837 /* Dummies.h */,
+				997356A51641AB8800F0A837 /* Dummies.m */,
+				9973569616419F5800F0A837 /* SPKVOTests.h */,
+				9973569716419F5800F0A837 /* SPKVOTests.m */,
+				997356A11641AB4400F0A837 /* SPKVORetainCycleTests.h */,
+				997356A21641AB4400F0A837 /* SPKVORetainCycleTests.m */,
+				997356A71641B68F00F0A837 /* OnceTests.h */,
+				997356A81641B68F00F0A837 /* OnceTests.m */,
+				9973569116419F5800F0A837 /* Supporting Files */,
+			);
+			path = SPKVOTests;
+			sourceTree = "<group>";
+		};
+		9973569116419F5800F0A837 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9973569216419F5800F0A837 /* SPKVOTests-Info.plist */,
+				9973569316419F5800F0A837 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9973567516419F5700F0A837 /* SPKVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9973569B16419F5800F0A837 /* Build configuration list for PBXNativeTarget "SPKVO" */;
+			buildPhases = (
+				9973567216419F5700F0A837 /* Sources */,
+				9973567316419F5700F0A837 /* Frameworks */,
+				9973567416419F5700F0A837 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPKVO;
+			productName = SPKVO;
+			productReference = 9973567616419F5700F0A837 /* libSPKVO.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9973568616419F5700F0A837 /* SPKVOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9973569E16419F5800F0A837 /* Build configuration list for PBXNativeTarget "SPKVOTests" */;
+			buildPhases = (
+				9973568216419F5700F0A837 /* Sources */,
+				9973568316419F5700F0A837 /* Frameworks */,
+				9973568416419F5700F0A837 /* Resources */,
+				9973568516419F5700F0A837 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9973568E16419F5800F0A837 /* PBXTargetDependency */,
+			);
+			name = SPKVOTests;
+			productName = SPKVOTests;
+			productReference = 9973568716419F5700F0A837 /* SPKVOTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9973566D16419F5700F0A837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Spotify;
+			};
+			buildConfigurationList = 9973567016419F5700F0A837 /* Build configuration list for PBXProject "SPKVO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9973566B16419F5700F0A837;
+			productRefGroup = 9973567716419F5700F0A837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9973567516419F5700F0A837 /* SPKVO */,
+				9973568616419F5700F0A837 /* SPKVOTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9973568416419F5700F0A837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9973569516419F5800F0A837 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9973568516419F5700F0A837 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9973567216419F5700F0A837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9973568116419F5700F0A837 /* SPKVO.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9973568216419F5700F0A837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9973569816419F5800F0A837 /* SPKVOTests.m in Sources */,
+				997356A31641AB4400F0A837 /* SPKVORetainCycleTests.m in Sources */,
+				997356A61641AB8800F0A837 /* Dummies.m in Sources */,
+				997356A91641B68F00F0A837 /* OnceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9973568E16419F5800F0A837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9973567516419F5700F0A837 /* SPKVO */;
+			targetProxy = 9973568D16419F5800F0A837 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9973569316419F5800F0A837 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9973569416419F5800F0A837 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9973569916419F5800F0A837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9973569A16419F5800F0A837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9973569C16419F5800F0A837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SPKVO.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPKVO/SPKVO-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9973569D16419F5800F0A837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SPKVO.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPKVO/SPKVO-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9973569F16419F5800F0A837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPKVO/SPKVO-Prefix.pch";
+				INFOPLIST_FILE = "SPKVOTests/SPKVOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		997356A016419F5800F0A837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPKVO/SPKVO-Prefix.pch";
+				INFOPLIST_FILE = "SPKVOTests/SPKVOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9973567016419F5700F0A837 /* Build configuration list for PBXProject "SPKVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9973569916419F5800F0A837 /* Debug */,
+				9973569A16419F5800F0A837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9973569B16419F5800F0A837 /* Build configuration list for PBXNativeTarget "SPKVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9973569C16419F5800F0A837 /* Debug */,
+				9973569D16419F5800F0A837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9973569E16419F5800F0A837 /* Build configuration list for PBXNativeTarget "SPKVOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9973569F16419F5800F0A837 /* Debug */,
+				997356A016419F5800F0A837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9973566D16419F5700F0A837 /* Project object */;
+}

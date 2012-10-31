@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SPKVO' target in the 'SPKVO' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
